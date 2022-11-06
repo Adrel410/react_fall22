@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +13,3 @@ function App() {
 }
 
 export default App;
-
-// props ->
-
-// state -> is owed by component
