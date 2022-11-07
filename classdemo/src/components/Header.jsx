@@ -11,12 +11,6 @@ class Header extends Component{
             name: ""
         }
     }
-
-    // exp ? true : false; if(exp){true} else {false}
-
-    // exp ? true : exp1 ? true : false; if(exp){true} else { if(exp1){true} else {false}}
-    
-    // lifecycle methods
     render(){
         const { linkText, linkUrl } = this.props
         const name = this.state.name
